@@ -10,6 +10,13 @@ export class ProductListComponent implements OnInit{
   ngOnInit(): void {
     throw new Error('Method not implemented.');
   }
-  products = products;
+  productDetails = products;
+  share(){
+    window.alert('product has been shared');
+  }
+
+  onNotify(){
+    window.alert('You will be notified when the product goes on sale');
+  }
 
 }
