@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
     throw new Error('Method not implemented.');
   }
  
-  title = 'Angular_App';
+
   products = [
     { name: 'Rice', id: 1, price: 200 },
     { name: 'Beans', id: 2, price: 300 },
@@ -20,5 +20,7 @@ export class AppComponent implements OnInit {
 
  
  principle = 'Principle';
+ title = 'Databinding';
+ course ='Angular';
   
 }
